@@ -1,0 +1,70 @@
+/* ==== Global Styles ==== */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* ==== Header ==== */
+header {
+  padding: 50px 20px;
+  background: radial-gradient(circle, rgba(138,43,226,0.1), rgba(0,0,0,0.9));
+  box-shadow: 0 0 20px 5px rgba(138, 43, 226, 0.6);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #8a2be2;
+  box-shadow: 0 0 20px #8a2be2, 0 0 40px #8a2be2;
+}
+
+/* ==== Section Titles ==== */
+h2 {
+  color: #b266ff;
+  text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2;
+  border-bottom: 2px solid #8a2be2;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* ==== Paragraphs ==== */
+p, li, a {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+a {
+  color: #c080ff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 15px #8a2be2, 0 0 25px #8a2be2;
+}
+
+/* ==== Sections ==== */
+section {
+  margin: 40px auto;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(20, 0, 40, 0.5);
+  box-shadow: 0 0 25px rgba(138, 43, 226, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 35px rgba(138, 43, 226, 0.6);
+}
+
+/* ==== Certificates ==== */
